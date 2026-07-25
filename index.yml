@@ -1,0 +1,4 @@
+providers:
+  - name: "Codetto"
+    path: codetto
+    logo: codetto.png
