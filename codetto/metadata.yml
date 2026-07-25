@@ -2,7 +2,7 @@ provider: "Codetto"
 courses:
   - title: "Learning Python in 3D"
     path: python-3d
-    image: python-3d/cover.jpg
+    image: python-3d/cover.png
     description: "This 5-day course introduces the basics of Python using 3D constructs."
     modules:
       - title: "Module 1: Exploring the 3D Environment"
@@ -10,5 +10,4 @@ courses:
         image: python-3d/environment/cover.png
         description: "In this section, we'll first learn how the 3D environment works."
         notebooks:
-          - title: "Coordinates"
-            path: python-3d/environment/coordinates.ipynb
+          - path: python-3d/environment/coordinates.ipynb
