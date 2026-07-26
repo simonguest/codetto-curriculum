@@ -3,11 +3,53 @@ courses:
   - title: "Learning Python in 3D"
     path: python-3d
     image: python-3d/cover.png
-    description: "This 5-day course introduces the basics of Python using 3D constructs."
+    description: "This 5-module course introduces the basics of Python using 3D constructs."
     modules:
-      - title: "Module 1: Exploring the 3D Environment"
-        path: python-3d/environment
-        image: python-3d/environment/cover.png
+      - title: "Module 1: Exploring Notebooks and the 3D Environment"
+        path: python-3d/module-1
+        image: python-3d/module-1/cover.png
         description: "In this section, we'll first learn how the 3D environment works."
         notebooks:
-          - path: python-3d/environment/coordinates.ipynb
+          - path: python-3d/module-1/hello_world.ipynb
+          - path: python-3d/module-1/coordinates.ipynb
+      - title: "Module 2: Python Basics in 3D"
+        path: python-3d/module-2
+        image: python-3d/module-2/cover.png
+        description: "Next, you'll learn the Python fundamentals — variables, functions, colors, and materials — needed to build and style your own 3D scenes."
+        notebooks:
+          - path: python-3d/module-2/variables.ipynb
+          - path: python-3d/module-2/functions.ipynb
+          - path: python-3d/module-2/colors.ipynb
+          - path: python-3d/module-2/materials.ipynb
+          - path: python-3d/module-2/experiment.ipynb
+      - title: "Module 3: Logic and Loops"
+        path: python-3d/module-3
+        image: python-3d/module-3/cover.png
+        description: "Here you'll add decision-making and repetition to your scenes with if statements, for and while loops, random numbers, and your own custom functions."
+        notebooks:
+          - path: python-3d/module-3/for_loops.ipynb
+          - path: python-3d/module-3/if_statements.ipynb
+          - path: python-3d/module-3/random_numbers.ipynb
+          - path: python-3d/module-3/custom_functions.ipynb
+          - path: python-3d/module-3/experiment.ipynb
+      - title: "Module 4: Events and Animation"
+        path: python-3d/module-4
+        image: python-3d/module-4/cover.png
+        description: "In this section, you'll bring scenes to life with animation, respond to clicks and key presses, group shapes into compound objects, and read object state with getters."
+        notebooks:
+          - path: python-3d/module-4/getters.ipynb
+          - path: python-3d/module-4/on_click.ipynb
+          - path: python-3d/module-4/on_key.ipynb
+          - path: python-3d/module-4/grouping.ipynb
+          - path: python-3d/module-4/animations.ipynb
+          - path: python-3d/module-4/experiment.ipynb
+      - title: "Module 5: Game Mechanics"
+        path: python-3d/module-5
+        image: python-3d/module-5/cover.png
+        description: "Finally, you'll pull it all together with camera control, lighting, sound, a heads-up display, and collision detection to build real game mechanics."
+        notebooks:
+          - path: python-3d/module-5/hud.ipynb
+          - path: python-3d/module-5/sound.ipynb
+          - path: python-3d/module-5/lighting.ipynb
+          - path: python-3d/module-5/camera.ipynb
+          - path: python-3d/module-5/collisions.ipynb
